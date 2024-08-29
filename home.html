@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim My</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="neon-button" id="showImageBtn">Còn Giận Tui Nữa Hong Dị... ^^</button>
+    <div id="imageContainer" style="display: none; z-index: 2;">
+        <img src="anh/11 - Rul91Az.jpg" alt="Placeholder Image">
+    </div>
+    <div>
+        
+    </div>
+    <script>
+        document.getElementById("showImageBtn").addEventListener("click", function() {
+            document.getElementById("imageContainer").style.display = "block";
+            document.getElementById("showImageBtn").style.display = "none";
+        });
+    </script>
+    
+</body>
+</html>
